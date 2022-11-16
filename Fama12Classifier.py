@@ -95,7 +95,7 @@ def industry_classification_Fama12(sic_code):
         classification = '10 Healthcare -- Healthcare, Medical Equipment, and Drugs'
     elif sic_code >= 8000 and sic_code <= 8099:
         classification = '10 Healthcare -- Healthcare, Medical Equipment, and Drugs'
-    elif sic_code >= 8000 and sic_code <= 8099:
+    elif sic_code >= 6000 and sic_code <= 6999:
         classification = '11 Finance -- Money, Banking, Insurance, Real Estate'
     else:
         classification = '12 Other -- Mines, Constr, BldMt, Trans, Hotels, Bus Serv, Entertainment'
